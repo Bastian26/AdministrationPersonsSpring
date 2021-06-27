@@ -1,3 +1,9 @@
+//-----------------------------------
+//Name: Bastian Struggl
+//Projektkname: PersonAdministration OOP / Spring / JPA / Klasse: CSVService
+//Datum: 27.06.2021
+//-----------------------------------
+
 package com.example.personAdministration.services;
 
 import java.io.BufferedReader;

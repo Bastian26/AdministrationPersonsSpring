@@ -1,3 +1,9 @@
+//-----------------------------------
+//Name: Bastian Struggl
+//Projektkname: PersonAdministration OOP / Spring / JPA / Klasse: PersonAdministration
+//Datum: 27.06.2021
+//-----------------------------------
+
 package com.example.personAdministration;
 
 import org.springframework.boot.SpringApplication;

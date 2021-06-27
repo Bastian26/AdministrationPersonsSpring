@@ -1,3 +1,9 @@
+//-----------------------------------
+//Name: Bastian Struggl
+//Projektname: PersonAdministration OOP / Spring / JPA / Interface: PersonRespository
+//Datum: 27.06.2021
+//-----------------------------------
+
 package com.example.personAdministration.respository;
 
 import org.springframework.data.jpa.repository.JpaRepository;

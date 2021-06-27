@@ -1,3 +1,9 @@
+//-----------------------------------
+//Name: Bastian Struggl
+//Projektkname: PersonAdministration OOP / Spring / JPA / Klasse: MyController
+//Datum: 19.06.2020
+//-----------------------------------
+
 package com.example.personAdministration.controller;
 
 import java.util.List;
@@ -13,7 +19,7 @@ import com.example.personAdministration.data.Person;
 import com.example.personAdministration.services.MyService;
 
 @RestController
-public class MyFirstController {
+public class MyController {
 
 	// @Autowired = Injection
 	@Autowired
