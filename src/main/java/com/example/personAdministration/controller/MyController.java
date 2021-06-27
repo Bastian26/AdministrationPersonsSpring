@@ -31,8 +31,6 @@ public class MyController {
 
 	/**
 	 * Gibt alle Personen aus der CSV-File zurück http://localhost:8080/persons
-	 * 
-	 * @return
 	 */
 	@GetMapping("/persons")
 	public List<Person> getAllPersonCont() {
@@ -42,8 +40,6 @@ public class MyController {
 	/**
 	 * Gibt eine spezifische Person aus der CSV-File zurück
 	 * http://localhost:8080/persons/{id}
-	 * 
-	 * @return
 	 */
 	@GetMapping("/persons/{id}")
 	public Person getOnePersonCont(@PathVariable int id) {
@@ -53,8 +49,6 @@ public class MyController {
 	/**
 	 * Gibt eine oder mehrere Personen einer spezifischen Farbe aus der CSV-File
 	 * zurück http://localhost:8080/persons/color/{color}
-	 * 
-	 * @return
 	 */
 	@GetMapping("/persons/color/{color}")
 	public List<Person> getAllPersonForColorCont(@PathVariable String color) {
@@ -67,8 +61,6 @@ public class MyController {
 	/**
 	 * Gibt alle Personen aus der Datenbank aus [GET]
 	 * http://localhost:8080/personsDB
-	 * 
-	 * @return
 	 */
 	@GetMapping("/personsDB")
 	public List<Person> getAllPersonDBCont() {
@@ -78,8 +70,6 @@ public class MyController {
 	/**
 	 * Gibt eine spezifische Person in die Datenbank ein [POST]
 	 * http://localhost:8080/personsDB
-	 * 
-	 * @return
 	 */
 	@PostMapping("/personsDB")
 	public Person createPersonCont(@RequestBody Person person) {
@@ -88,8 +78,6 @@ public class MyController {
 
 	/**
 	 * Löscht eine spezifische Person [DELETE] http://localhost:8080/personsDB
-	 * 
-	 * @return
 	 */
 	@DeleteMapping("/personsDB/{id}")
 	public void deletePersonCont(@PathVariable int id) {

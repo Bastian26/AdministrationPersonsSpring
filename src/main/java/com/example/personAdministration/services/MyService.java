@@ -84,8 +84,6 @@ public class MyService {
 	/**
 	 * Gibt alle Personen aus der Datenbank aus [GET]
 	 * http://localhost:8080/personsDB
-	 * 
-	 * @return
 	 */
 	@GetMapping("/personsDB")
 	public List<Person> getAllPersonDB() {
@@ -97,8 +95,6 @@ public class MyService {
 	/**
 	 * Gibt eine spezifische Person in die Datenbank ein [POST]
 	 * http://localhost:8080/personsDB
-	 * 
-	 * @return
 	 */
 	public Person createPerson(Person person) {
 		return personRespository.save(person);
@@ -106,8 +102,6 @@ public class MyService {
 
 	/**
 	 * Löscht eine spezifische Person [DELETE] http://localhost:8080/personsDB
-	 * 
-	 * @return
 	 */
 	@DeleteMapping("/personsDB/{id}")
 	public void deletePerson(@PathVariable int id) {
