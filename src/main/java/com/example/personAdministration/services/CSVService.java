@@ -16,7 +16,7 @@ import java.util.List;
 @Service
 public class CSVService {
 
-	// Dieser weißt jedem Datensatz sozusagen eine ID zu
+	// Dieser weist jedem Datensatz sozusagen eine ID zu
 	public static int counterID = 0;
 	// Array mit vorgegebenen index-zu-Farbwerten
 	public static String[] farben = { "blau", "grün", "violett", "rot", "gelb", "türkis", "weiß" };
