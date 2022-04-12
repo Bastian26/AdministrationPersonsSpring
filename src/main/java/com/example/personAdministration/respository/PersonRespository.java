@@ -11,7 +11,7 @@ import org.springframework.stereotype.Repository;
 import com.example.personAdministration.data.Person;
 
 
-@Repository		// Person = Welche Objekte sollen gespeichert werden? | Identifier = muss angegeben werden (Primary Key | Id)   
+@Repository		// Person = Welche Objekte sollen gespeichert werden? | Identifier = muss angegeben werden (Klasse Datenobjekt| Id)   
 public interface PersonRespository extends JpaRepository<Person, Integer> {
 
     
